@@ -1,0 +1,43 @@
+.shipping-est-wrapper {
+    clear: both;
+    display: block;
+    padding: 10px 15px;
+    margin: 20px 0;
+    background-color: #f6f6f6;
+    border: 1px solid #e1e1e1;
+    position: relative;
+}
+.shipping-est-wrapper .icon-block {
+    background-image: url('../img/shipping-icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.shipping-est-wrapper .text-block {
+    padding-left: 65px;
+    display: table;
+    height: 50px;
+}
+.shipping-est-wrapper .text-block .text-inner {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.shipping-est-wrapper .text-block .text-inner > span {
+    display: block;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+    font-size: 14px;
+}
+@media(max-width: 479px) {
+    .shipping-est-wrapper .text-block .text-inner > span {
+        line-height: 20px;
+        font-size: 13px;
+    }
+}

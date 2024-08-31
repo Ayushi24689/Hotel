@@ -1,0 +1,124 @@
+#header .promotionbarpro-block{
+    display: block;
+    position: static;
+    z-index: 1060;
+    text-align: center;
+    padding: 9px 0;
+    background-color: #301e90;
+    transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+}
+#header .promotionbarpro-block.promop_top{
+    top: 0;
+    bottom: auto;
+}
+#header .promotionbarpro-block.promop_bottom{
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+#header .promotionbarpro-block.hide{
+    display: none !important;
+    transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+}
+#header .promotionbarpro-block .promo-text{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 10px;
+}
+#header .promotionbarpro-block .promotion-countdown{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+#header .promotionbarpro-block .promotion-countdown .count{
+    font-size: 18px;
+    font-weight: 500;
+}
+#header .promotionbarpro-block  a {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0px 5px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+#header .promotionbarpro-block.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 1020;
+}
+#header .promotionbarpro-block span.close {
+    display: block;
+    color: #fff;
+    float: right;
+    font-size: 22px;
+    opacity: 1;
+    position: absolute;
+    right: 15px;
+}
+#header .promotionbarpro-block span.close:hover{
+    opacity: 0.8;
+}
+#header .promotion-countdown span {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 5px 0 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    vertical-align: middle;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    min-width: 40px;
+}
+#header .promotion-countdown span:last-child{
+    margin: 0;
+}
+
+@media(max-width: 639px) {
+    #header .promotionbarpro-block .promo-text{
+        width: 100%;
+        font-size: 14px;
+    }
+    #header .promotion-countdown span{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 5px;
+        margin: 0;
+    }
+    #header .promotionbarpro-block a{
+        padding: 3px 5px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+@media(max-width: 479px) {
+    #header .promotionbarpro-block .promo-text{
+        font-size: 12px;
+    }
+    #header .promotionbarpro-block span.close{
+        right: 10px;
+        top: 20px;
+        font-size: 18px;
+    }
+    #header .promotionbarpro-block .promotion-countdown{
+        width: 100%;
+    }
+    #header .promotionbarpro-block a{
+        margin-left: 0;
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+}

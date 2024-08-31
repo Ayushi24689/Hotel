@@ -1,0 +1,69 @@
+#ht-sizechart-popup-enable{
+    display:none;
+}
+.ht-hidden-vars{
+    display:none;
+}
+#ht_cookielaw{
+    border: 0;
+    font-size: 10pt;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 99999;
+    box-shadow: rgba(0,0,0,.5) 0px 5px 10px;
+    display: none;
+    left: 0px;
+}
+#ht_cookielaw.active{
+    padding: 15px 50px;
+    box-sizing: border-box;
+    border-color: rgb(51, 51, 51);
+    background-color: #fff;
+    color: rgb(51, 51, 51);
+    font-family: inherit;
+    bottom: 0px;
+    position: fixed;
+    text-align: left;
+    display: table;
+    opacity: 1;
+}
+#ht_cookielaw.active .cookie-text,
+#ht_cookielaw.active .cookie-btn{
+    display: table-cell;
+    padding: 0 15px;
+}
+#ht_cookielaw.active .cookie-text p{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+#ht_cookielaw.active .cookie-text a{
+    color: #fff;
+    text-decoration: underline;
+}
+#ht_cookielaw.active .cookie-btn .btn{
+    box-shadow: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+}
+#ht_cookielaw.active .cookie-btn .btn:hover{
+    opacity: 0.9;
+}
+@media(max-width: 767px){
+    #ht_cookielaw.active{
+        padding: 10px 0px;
+    }
+    #ht_cookielaw.active .cookie-text,
+    #ht_cookielaw.active .cookie-btn{
+        display: block;
+        text-align: center;
+    }
+    #ht_cookielaw.active .cookie-btn{
+        margin-top: 10px;
+    }
+}

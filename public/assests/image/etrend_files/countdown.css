@@ -1,0 +1,101 @@
+.ht-hidden-vars{
+    display: none !important;
+}
+.product-information .product-timer-wrapper {
+    display: block;
+    margin-top: 30px;
+}
+.product-information .product-timer-wrapper.sticky-timer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f6f6f6;
+    z-index: 99;
+    padding: 15px 0 6px;
+}
+.product-information .product-timer-wrapper.sticky-timer > span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.product-information .product-timer-wrapper.sticky-timer > .timer-wrapper-outer {
+    clear: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+.product-information .product-timer-wrapper > span {
+    display: block;
+    font-weight: 600;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.product-information .product-timer-wrapper > span > span {
+    color: #ff0000;
+}
+.product-information .product-timer-wrapper .timer-wrapper-outer {
+    width: 100%;
+    max-width: 275px;
+    display: block;
+    margin: 5px 0 20px;
+    text-align: center;
+    clear: both;
+}
+.product-information .product-timer-wrapper .timer-wrapper-outer * {
+    box-sizing: border-box;
+}
+.product-information .product-timer-wrapper .timer-wrapper-outer .timer {
+    padding: 0;
+    display: block;
+    font-size: 0;
+}
+.product-information .product-timer-wrapper .timer-wrapper-outer .timer .timer-wrapper {
+    display: inline-block;
+    width: 25%;
+    padding: 0 10px 0 0;
+}
+.product-information .product-timer-wrapper .timer-wrapper-outer .timer .timer-wrapper .time {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 48px;
+    background: #333333;
+    border-radius: 5px;
+}
+.product-information .product-timer-wrapper .timer-wrapper-outer .timer .timer-wrapper .text {
+    font-size: 13px;
+    color: #666666;
+    font-weight: 600;
+}
+@media(max-width: 639px) {
+    .product-information .product-timer-wrapper.sticky-timer > span {
+        display: block;
+        margin-right: 0;
+    }
+    .product-information .product-timer-wrapper .timer-wrapper-outer .timer .timer-wrapper {
+        padding: 0 5px;
+    }
+}
+@media(max-width: 479px) {
+    .product-information .product-timer-wrapper.sticky-timer > span {
+        font-size: 13px;
+    }
+    .product-information .product-timer-wrapper.sticky-timer {
+        padding: 10px 0 3px;
+    }
+    .product-information .product-timer-wrapper .timer-wrapper-outer {
+        max-width: 180px;
+    }
+    .product-information .product-timer-wrapper .timer-wrapper-outer .timer .timer-wrapper .time {
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .product-information .product-timer-wrapper .timer-wrapper-outer .timer .timer-wrapper .text {
+        font-size: 11px;
+    }
+}

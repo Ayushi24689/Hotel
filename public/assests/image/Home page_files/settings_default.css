@@ -1,0 +1,32 @@
+/**
+* WARNING: Do not change this file. Your changes will be lost.
+* 2021-02-12 08:54:25*/
+            body {
+            font-family: 'Jost','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        }
+        select {
+            font-family: 'Jost','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        }
+        button, .action.primary {
+            font-family: 'Jost','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        }
+    
+
+@media(min-width: 480px) {
+            .message.global.cookie {
+            left: 25px;
+            bottom: 25px;
+            max-width: 450px;
+        }
+                    .message.global.cookie {
+                left: 25px;
+                right: auto;
+            }
+            }
+
+
+    
+
+    
+    
+
